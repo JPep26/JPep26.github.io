@@ -1,0 +1,9 @@
+speech: 0:00:00.880000 - 0:00:41.080000, File: /home/mh/homepage/audio/mbc_fm4u/speech_merged_1.mp3
+music: 0:00:41.080000 - 0:04:16.580000, File: /home/mh/homepage/audio/mbc_fm4u/music_merged_2.mp3
+speech: 0:04:16.580000 - 0:07:32.280000, File: /home/mh/homepage/audio/mbc_fm4u/speech_merged_3.mp3
+music: 0:07:32.280000 - 0:13:00.620000, File: /home/mh/homepage/audio/mbc_fm4u/music_merged_4.mp3
+speech: 0:13:02.300000 - 0:17:26.080000, File: /home/mh/homepage/audio/mbc_fm4u/speech_merged_5.mp3
+music: 0:17:26.080000 - 0:21:51.260000, File: /home/mh/homepage/audio/mbc_fm4u/music_merged_6.mp3
+speech: 0:21:54.940000 - 0:57:30.340000, File: /home/mh/homepage/audio/mbc_fm4u/speech_merged_7.mp3
+music: 0:57:30.340000 - 0:59:39.440000, File: /home/mh/homepage/audio/mbc_fm4u/music_merged_8.mp3
+speech: 0:59:40.340000 - 0:59:59.980000, File: /home/mh/homepage/audio/mbc_fm4u/speech_merged_9.mp3

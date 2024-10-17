@@ -123,8 +123,8 @@ def save_segment_info_to_text(segment_file_names, output_file_path):
     print(f"Saved segment information with file names to: {output_file_path}")
 
 # 7. 전체 과정 실행
-input_mp3_path = "/home/mh/Radio/kbs_3radio/kbs_3radio_20240925_0600.mp3"  # MP3 파일 경로를 실제 파일로 대체하세요
-output_dir = "/home/mh/homepage/test/"  # 구간 파일이 저장될 디렉토리
+input_mp3_path = "/home/mh/Radio/tbc_dreamfm/tbc_dreamfm_20240925_2000.mp3"  # MP3 파일 경로를 실제 파일로 대체하세요
+output_dir = "/home/mh/homepage/audio/tbc_dreamfm"  # 구간 파일이 저장될 디렉토리
 output_text_file = os.path.join(output_dir, "segment_info.txt")  # 구간 정보를 저장할 텍스트 파일 경로
 
 # 오디오 파일 세그멘테이션

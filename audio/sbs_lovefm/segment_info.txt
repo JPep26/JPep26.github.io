@@ -1,0 +1,17 @@
+speech: 0:00:00 - 0:02:10.100000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_1.mp3
+music: 0:02:10.100000 - 0:05:36.500000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_2.mp3
+speech: 0:05:36.500000 - 0:41:52.880000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_3.mp3
+music: 0:41:52.880000 - 0:45:56.980000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_4.mp3
+speech: 0:45:56.980000 - 1:02:16.900000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_5.mp3
+music: 1:02:16.900000 - 1:06:03.960000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_6.mp3
+speech: 1:06:04.420000 - 1:17:03.780000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_7.mp3
+music: 1:17:03.780000 - 1:20:17.960000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_8.mp3
+speech: 1:20:17.960000 - 1:36:32.920000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_9.mp3
+music: 1:36:32.920000 - 1:39:58.500000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_10.mp3
+speech: 1:39:59.420000 - 1:42:50.060000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_11.mp3
+music: 1:42:50.060000 - 1:46:24.460000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_12.mp3
+speech: 1:46:24.460000 - 1:50:45.340000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_13.mp3
+music: 1:50:45.340000 - 1:52:36.840000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_14.mp3
+speech: 1:52:38.580000 - 1:55:00.760000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_15.mp3
+music: 1:55:00.760000 - 1:57:24.620000, File: /home/mh/homepage/audio/sbs_lovefm/music_merged_16.mp3
+speech: 1:57:26.260000 - 1:59:59.980000, File: /home/mh/homepage/audio/sbs_lovefm/speech_merged_17.mp3

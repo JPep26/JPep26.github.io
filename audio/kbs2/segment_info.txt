@@ -1,0 +1,11 @@
+speech: 0:00:00 - 0:01:22.520000, File: /home/mh/homepage/audio/kbs2/speech_merged_1.mp3
+music: 0:01:22.520000 - 0:04:18.900000, File: /home/mh/homepage/audio/kbs2/music_merged_2.mp3
+speech: 0:04:20.240000 - 0:26:36.400000, File: /home/mh/homepage/audio/kbs2/speech_merged_3.mp3
+music: 0:26:36.400000 - 0:28:38.820000, File: /home/mh/homepage/audio/kbs2/music_merged_4.mp3
+speech: 0:28:41.020000 - 0:55:19.440000, File: /home/mh/homepage/audio/kbs2/speech_merged_5.mp3
+music: 0:55:19.440000 - 0:57:19.120000, File: /home/mh/homepage/audio/kbs2/music_merged_6.mp3
+speech: 0:57:21.980000 - 1:25:51.620000, File: /home/mh/homepage/audio/kbs2/speech_merged_7.mp3
+music: 1:25:51.620000 - 1:28:39.660000, File: /home/mh/homepage/audio/kbs2/music_merged_8.mp3
+speech: 1:28:41.220000 - 1:51:12.100000, File: /home/mh/homepage/audio/kbs2/speech_merged_9.mp3
+music: 1:51:12.100000 - 1:52:18.080000, File: /home/mh/homepage/audio/kbs2/music_merged_10.mp3
+speech: 1:52:20.960000 - 1:59:59.980000, File: /home/mh/homepage/audio/kbs2/speech_merged_11.mp3

@@ -5,7 +5,7 @@ from datetime import timedelta
 # Whisper 모델 로드 (GPU를 사용할 수 없으면 CPU로 자동 전환)
 def load_whisper_model():
     try:
-        model = whisper.load_model("small")
+        model = whisper.load_model("medium")
     except Exception as e:
         print(f"Error loading Whisper model: {e}")
         model = None
@@ -87,9 +87,9 @@ def transcribe_speech_segments_to_single_file(segment_info_path, speech_dir, out
                 print(f"Timestamp not found for {file_name}.")
 
 # 전체 과정 실행
-segment_info_path = "/home/mh/homepage/test/segment_info.txt"  # segment_info.txt 파일 경로
-speech_dir = "/home/mh/homepage/test"  # speech_segment 파일들이 저장된 디렉토리
-output_file = "/home/mh/homepage/test_1017.txt"  # 모든 변환된 텍스트를 하나의 파일에 저장
+segment_info_path = "/home/mh/homepage/audio/korean_music/segment_info.txt"  # segment_info.txt 파일 경로
+speech_dir = "/home/mh/homepage/audio/korean_music"  # speech_segment 파일들이 저장된 디렉토리
+output_file = "/home/mh/homepage/text_result/korean_music.txt"  # 모든 변환된 텍스트를 하나의 파일에 저장
 
 # Whisper 모델 로드
 model = load_whisper_model()

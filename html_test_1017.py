@@ -94,10 +94,10 @@ def read_transcription_file(file_path):
         return f.read()
 
 # 전체 과정 실행
-summary_file = "output_summary.txt"  # 요약된 텍스트 파일 경로
-full_transcription_file = "test_1017.txt"  # 요약 전 텍스트 파일 경로
-audio_dir = "/test"  # 오디오 파일들이 저장된 디렉토리
-output_html = "output_summary.html"  # HTML 결과 파일 경로
+summary_file = "summary/tbc_dreamfm_summary.txt"  # 요약된 텍스트 파일 경로
+full_transcription_file = "text_result/tbc_dreamfm.txt"  # 요약 전 텍스트 파일 경로
+audio_dir = "audio/tbc_dreamfm"  # 오디오 파일들이 저장된 디렉토리
+output_html = "html/tbc_dreamfm.html"  # HTML 결과 파일 경로
 
 # 요약된 텍스트 파일에서 데이터 읽기
 summary_data = read_summary_file(summary_file)
