@@ -1,0 +1,5 @@
+speech_music_combined: 0:00:00 - 0:04:16.580000
+speech_music_combined: 0:04:16.580000 - 0:13:00.620000
+speech_music_combined: 0:13:00.620000 - 0:21:51.260000
+speech_music_combined: 0:21:51.260000 - 0:59:39.440000
+speech: 0:59:39.440000 - 0:59:59.980000
