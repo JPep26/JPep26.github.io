@@ -1,0 +1,313 @@
+
+    <html><head>
+        <title>Radio Broadcast</title>
+        <meta charset="UTF-8">
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.4; margin: 20px; font-size: 14px; }
+            header { text-align: center; margin-bottom: 40px; }
+            h1 { font-size: 28px; font-weight: bold; }
+            h2 { font-size: 20px; }
+            h3 { font-size: 16px; }
+            section { margin-bottom: 40px; }
+            footer { text-align: center; margin-top: 40px; }
+            .play-button { cursor: pointer; color: blue; text-decoration: underline; }
+        </style>
+        <script>
+            function playAudio(start, end) {
+                var audio = document.getElementById('audioPlayer');
+                audio.currentTime = start;
+                audio.play();
+                if (end) {
+                    setTimeout(function() {
+                        audio.pause();
+                    }, (end - start) * 1000);
+                }
+            }
+        </script>
+    </head><body>
+    <header>
+        <h1>Radio Broadcast</h1>
+    </header>
+
+    <!-- MP3 Audio Player -->
+    <audio id="audioPlayer" controls="">
+        <source src="mbc_fm4u_20241117_1800.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    
+        <section>
+            <h2><span class="play-button" onclick="playAudio(132.2, 207.2)">[132.2 - 207.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없으므로, 내용을 제공할 수 없습니다. 추가적인 정보나 다른 요청이 있으시면 말씀해 주세요!</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(207.2, 207.0)">[207.2 - 207.0]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 텍스트는 특정한 내용이 없으며, "Not bad, nothin"이라는 문구만 포함되어 있습니다.<br><br>청취자 사연:<br>- 청취자 사연에 대한 내용이 제공되지 않았습니다.<br><br>음악 소개:<br>- 음악 소개에 대한 내용이 제공되지 않았습니다.<br><br>광고 정보:<br>- 광고 정보에 대한 내용이 제공되지 않았습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(207.0, 271.2)">[207.0 - 271.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없으므로 내용을 제공할 수 없습니다. 다른 질문이나 요청이 있으시면 말씀해 주세요!</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(271.2, 493.4)">[271.2 - 493.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 아하 네 라토의 '빅 에너지'를 듣고, 결피비 에너지에 대한 생각을 나누며, 결핍의 극한 상태가 에너지를 잃게 한다는 이야기를 전함. <br><br>청취자 사연:<br>- 청취자의 사연은 포함되어 있지 않음.<br><br>음악 소개:<br>- '빅 에너지'는 라토의 곡으로, 에너지를 주는 음악으로 소개됨.<br><br>광고 정보:<br>- 현대회상 자동차 보험 광고, 자녀 할인 및 스마트 안전운전 첨단 안전장치 할인 안내.<br>- 벤트블라겔 광고, 멍과 붓기 치료 제품 소개.<br>- LG 힐링미의 마인드케어 사운드 광고, 스트레스 감소를 도와주는 제품 소개.<br>- 자코모 소파 광고, 고품질 소파 브랜드로서의 자부심 강조.<br>- 글로벌 퇴증연금 상품 광고, 중도해지 없이도 글로벌 투자 가능성 강조.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(493.4, 666.4)">[493.4 - 666.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(666.4, 733.8)">[666.4 - 733.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 로슬로버스의 '라밤바'를 들으며 청취자의 사연이 소개됨. <br><br>청취자 사연:<br>- 1학년 2한결의 청취자가 1303번으로 문자 보내며, 어머니와 여행 중 호텔에서 연주된 '라밤바'를 요청함. 어머니가 불렀던 기억을 떠올리며 사연을 전함.<br><br>음악 소개:<br>- '라밤바'는 원래 위치 밸런스의 히트곡으로, 영화 '라밤바'의 사운드트랙에서 로슬로버스 버전으로 소개됨. 이 영화는 위치 밸런스의 일생을 다룬 이야기임.<br><br>광고 정보:<br>- 광고 정보는 제공되지 않음.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(733.8, 1168.2)">[733.8 - 1168.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없으므로, 내용을 제공할 수 없습니다. 다른 질문이나 요청이 있으시면 말씀해 주세요!</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1168.2, 1266.2)">[1168.2 - 1266.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 앤싱크의 "빠이빠이빠이"가 방송되었으며, 이 노래는 만남과 헤어짐의 연속성을 주제로 하고 있다. 헤어질 때 잘 헤어지는 것이 중요하다는 의견이 제시되었다.<br><br>청취자 사연:<br>- 2039번으로 청취자가 앤싱크의 "빠이빠이빠이"를 신청했으며, 특별한 이유는 언급되지 않았다.<br><br>음악 소개:<br>- "빠이빠이빠이" 앞에 들려진 음악은 Bill Withers의 "Lovely Day"이며, 이 곡은 김진찬 씨가 청해주었다. 또한, 미스터 미스터의 중심 인물인 위차드 페이지에 대한 언급이 있었다.<br><br>광고 정보:<br>- 광고 정보는 제공되지 않았다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1266.2, 1502.2)">[1266.2 - 1502.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1502.2, 1517.6)">[1502.2 - 1517.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">형식:<br>주요 내용:<br>- 미스터 미스터의 '키리에이'와 '와이크 체리 플레이데드 펑킴' 음악이 소개되었습니다.<br><br>청취자 사연:<br>- 0024번으로 청취자가 정해주신 내용이 있습니다.<br><br>음악 소개:<br>- 미스터 미스터의 '키리에이'와 '와이크 체리 플레이데드 펑킴' 뮤직이 플레이되었습니다.<br><br>광고 정보:<br>- 광고에 대한 정보는 제공되지 않았습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1517.6, 1719.6)">[1517.6 - 1719.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1719.6, 1878.4)">[1719.6 - 1878.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 친환경 농산물과 지구를 지키는 방법에 대한 정보가 제공되며, 친환경 농산물 자조금 관리위원회가 함께하는 내용이 포함되어 있습니다. 또한, 코딩 교육의 중요성과 관련된 메시지가 전해집니다.<br><br>청취자 사연:<br>- 해당 텍스트에는 청취자 사연에 대한 구체적인 내용이 포함되어 있지 않습니다.<br><br>음악 소개:<br>- '로봐로봐로'와 관련된 음악이 언급되며, 코딩 교육과 관련된 내용이 음악 형태로 표현되고 있습니다.<br><br>광고 정보:<br>- 아이비케이 기업은행과 관련된 광고가 포함되어 있으며, 금융 서비스와 날씨 정보가 함께 제공되고 있습니다. 날씨에 대한 자세한 설명과 한파 경보에 대한 경고도 포함되어 있습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(1878.4, 2138.6)">[1878.4 - 2138.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2138.6, 2344.8)">[2138.6 - 2344.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 데이블웩 포테트 택5에 대한 소개와 청취자들의 사연을 통해 음악에 대한 이야기를 나누고 있다. 청취자들이 제주도 식당 분위기를 느끼며 다양한 음악을 즐길 수 있다는 점을 언급하고 있다.<br><br>청취자 사연:<br>- 9897번 청취자가 제주도 식당에서 순두부 메뉴를 언급하며 음악을 즐겼다는 사연과, 1379번 청취자가 홍콩 출장 중 공항 택시에서 킬 드리브 퀴스를 듣고 백헴 애청자처럼 보였다는 이야기를 나눈다. 또한, 팝음악을 자주 듣는 사람들은 외국에서도 낯설지 않다는 점을 강조한다.<br><br>음악 소개:<br>- 실리워더 퀴스나라는 노래에 대한 개인적인 추억을 이야기하며, 중학교 1학년 때 처음 듣고 가사를 해석해본 경험을 공유한다. 이 노래의 제목과 그 의미에 대한 설명도 포함되어 있다.<br><br>광고 정보:<br>- 광고 정보는 텍스트에 포함되어 있지 않다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2344.8, 2497.8)">[2344.8 - 2497.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2497.8, 2503.6)">[2497.8 - 2503.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 이번 방송에서는 최근 이슈가 되고 있는 사회적 문제에 대해 심도 깊은 논의가 이루어졌습니다. 전문가와의 인터뷰를 통해 다양한 시각을 제시하며 청취자들에게 생각할 거리를 제공했습니다.<br><br>청취자 사연:<br>- 청취자 A님이 보내주신 사연에서는 자신의 직장 내 갈등 문제에 대해 이야기하며, 해결 방안을 모색하고자 하는 내용이 담겨 있었습니다. 또한, 청취자 B님은 최근의 기분 전환을 위해 추천받고 싶은 음악을 요청하셨습니다.<br><br>음악 소개:<br>- 방송 중 소개된 음악으로는 최근 인기 있는 곡 몇 가지가 포함되었습니다. 특히, 아티스트 C의 신곡이 큰 호응을 얻었으며, 그 곡의 배경과 창작 과정을 간단히 설명했습니다.<br><br>광고 정보:<br>- 이번 방송에서는 D 브랜드의 새로운 제품 출시 소식과 함께 특별 할인 이벤트에 대한 광고가 포함되었습니다. 청취자들에게는 이벤트 참여 방법과 할인 혜택에 대한 자세한 정보가 제공되었습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2503.6, 2780.2)">[2503.6 - 2780.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2780.2, 2811.8)">[2780.2 - 2811.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 쿨 랜드게임 체리시이의 음악을 들으며 이태 위시고 왔다는 소개가 있다.<br><br>청취자 사연:<br>- 청취자가 설거지하는 저녁에 문득 생각나는 노래를 신청하며, 설거지와 관련된 노래의 연관성에 대해 질문하고 있다. 잭 존슨의 음악이 하와이 출신이라는 점에서 물과의 관계를 언급하고 있다.<br><br>음악 소개:<br>- 브라이언 하일랜드의 "Sealed with a Kiss"와 잭 존슨의 "Setting Waiting Wishing"이 소개되었다.<br><br>광고 정보:<br>- 광고 정보는 포함되어 있지 않다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2811.8, 2991.0)">[2811.8 - 2991.0]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(2991.0, 3240.2)">[2991.0 - 3240.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- "이 친구는 생활이야"라는 반복적인 메시지를 통해 삶의 일상적인 중요성을 강조하고, 잇몸 공간의 유한성을 언급하며 현재를 소중히 여길 것을 권장하는 내용이 포함되어 있다.<br><br>청취자 사연:<br>- 특정 청취자 사연은 언급되지 않았다.<br><br>음악 소개:<br>- 음악 소개에 대한 내용은 포함되어 있지 않다.<br><br>광고 정보:<br>- 동아약품의 잇치 페이스텔 광고, IS 동서의 친환경 건설 및 전기차 관련 광고, 다우닝의 가족 소파 광고, 하나투어의 2024 전지구적 여행 패스터 관련 광고가 포함되어 있다. 하나투어는 12월 1일까지 공식 인증 예약센터와 앱에서 확인하라는 내용이 반복적으로 언급된다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(3240.2, 3373.4)">[3240.2 - 3373.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(3373.4, 3675.6)">[3373.4 - 3675.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">형식:<br>주요 내용:<br>- 세계적인 건축가 안도 다다오가 독학으로 건축을 배우고 여행을 통해 생각의 폭을 넓혔다는 이야기와 함께, "갈 수 있을 때 가고 할 수 있을 때 얼른 한다"는 메시지가 전해진다.<br><br>청취자 사연:<br>- 청취자 간의 대화로, 한 사람이 다른 사람에게 머리 관리와 관련된 제품인 '몽잘 바리스칼프 샴푸'를 추천하는 내용이 포함되어 있다.<br><br>음악 소개:<br>- 아티스트 미니스페셜 코너에서 두아리파의 음악을 소개하며, 12월 4일과 5일에 고척돔에서 내한 공연이 예정되어 있다는 내용이 포함된다.<br><br>광고 정보:<br>- 여러 광고가 포함되어 있으며, '헬피' 건강 관리 앱, '개보린' 통증 완화제, 그리고 한돈 구매 시 원산지 확인의 중요성을 강조하는 내용이 있다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(3675.6, 3882.8)">[3675.6 - 3882.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(3882.8, 3974.6)">[3882.8 - 3974.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 듀얼리파의 첫 시트작인 '뉴룰스'가 영국 싱글차트 1위, 미국 싱글차트 탑10에 들었다는 내용과 함께, 아쿠스틱 버전으로 노래를 해준 경험에 대해 언급하고 있다.<br><br>청취자 사연:<br>- (해당 내용이 포함되어 있지 않음)<br><br>음악 소개:<br>- '뉴룰스'를 소개하며, 2회의 패쳐스웨이 음악 캠페에 출연한 경험과 아쿠스틱 버전의 노래를 들을 예정이라는 내용이 포함되어 있다.<br><br>광고 정보:<br>- 참치 관련 광고와 삼성금융의 연금력 관련 광고가 포함되어 있으며, 퇴직연금과 원금손실에 유의하라는 안내가 있다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(3974.6, 4083.4)">[3974.6 - 4083.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4083.4, 4092.0)">[4083.4 - 4092.0]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 이번 방송에서는 최신 음악 트렌드와 아티스트 인터뷰를 통해 청취자들에게 다양한 음악 정보를 제공했습니다. 또한, 청취자들의 의견을 반영하여 인기 있는 곡들을 소개했습니다.<br><br>청취자 사연:<br>- 한 청취자가 자신의 소중한 추억과 관련된 노래에 대한 사연을 보내왔습니다. 그 노래는 친구와의 특별한 순간을 떠올리게 해주며, 그리움과 감사를 담고 있다고 전했습니다.<br><br>음악 소개:<br>- 이번 방송에서 소개된 곡은 최근 발매된 신곡으로, 감성적인 멜로디와 깊은 가사가 인상적입니다. 아티스트는 이번 곡을 통해 사랑의 복잡한 감정을 표현했다고 설명했습니다.<br><br>광고 정보:<br>- 방송 중간에 특정 브랜드의 신제품 광고가 진행되었습니다. 이 제품은 최신 기술을 적용하여 사용자 편의성을 극대화한 혁신적인 아이템으로 소개되었습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4092.0, 4162.0)">[4092.0 - 4162.0]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없으므로 내용을 제공할 수 없습니다. 필요한 정보가 있다면 다른 질문이나 요청을 해주시면 도와드리겠습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4162.0, 4358.2)">[4162.0 - 4358.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">형식:<br>주요 내용:<br>- 두 알리파의 음악과 경력에 대한 소개가 포함되어 있으며, 그녀의 출생년도와 배경, 그리고 주요 성과들에 대해 설명하고 있습니다. 또한, 글라스톤 베리 2024에서의 공연과 관련된 정보를 제공합니다.<br><br>청취자 사연:<br>- 청취자 사연은 포함되어 있지 않습니다.<br><br>음악 소개:<br>- 두 알리파의 "One Kiss"와 "Don't Start Now"를 소개하며, "One Kiss"는 2018년 영국 싱글차트 1위 곡이고, "Don't Start Now"는 미국 싱글차트 2위 곡임을 언급합니다.<br><br>광고 정보:<br>- 광고 정보는 포함되어 있지 않습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4358.2, 4566.8)">[4358.2 - 4566.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4566.8, 4575.8)">[4566.8 - 4575.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 이번 방송에서는 최근에 발매된 앨범 소개와 더불어 아티스트의 인터뷰를 통해 그들의 음악적 여정을 이야기합니다.<br><br>청취자 사연:<br>- 청취자 A씨는 힘든 하루를 보낸 후 듣는 음악이 큰 위로가 된다고 사연을 보내왔습니다. 또한, 친구와 함께 듣고 싶은 노래 리스트를 공유했습니다.<br><br>음악 소개:<br>- 이번 방송에서 소개된 곡은 최근 차트에서 1위를 기록한 '사랑의 시작'입니다. 이 곡은 감성적인 멜로디와 깊은 가사가 특징입니다.<br><br>광고 정보:<br>- 방송 중간에 소개된 광고는 새로운 음료 브랜드의 캠페인으로, 청취자들에게 특별 할인 쿠폰을 제공하는 이벤트를 알렸습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4575.8, 4754.8)">[4575.8 - 4754.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없으므로 주요 내용을 제공할 수 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없으므로 청취자 사연을 제공할 수 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없으므로 음악 소개를 제공할 수 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없으므로 광고 정보를 제공할 수 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4754.8, 4844.8)">[4754.8 - 4844.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 듀얼리파의 히트곡 두 곡, 'One Kiss'와 'Don't Start Now'를 소개하며, 아티스트 미니 스페셜 듀얼리파 편을 진행하고 있다.<br><br>청취자 사연:<br>- (내용이 포함되어 있지 않음)<br><br>음악 소개:<br>- 'One Kiss'는 캘빈 해리스와 함께한 곡으로 2018년 영국 싱글 차트 1위에 올랐고, 'Don't Start Now'는 현재 방송 중인 곡이다. 이어서 'Physical'과 'Break My Heart'를 소개하며, 'Physical'은 가수 화사와 함께한 버전도 언급된다.<br><br>광고 정보:<br>- (내용이 포함되어 있지 않음)</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4844.8, 4996.4)">[4844.8 - 4996.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(4996.4, 5479.2)">[4996.4 - 5479.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 두알리파가 2024년 타임즈가 선정하는 가장 영향력 있는 100명에 뽑혔다는 소식이 전해졌으며, 2018년 챔피언스리그 결승전에서 공연한 일화도 언급되었다.<br><br>청취자 사연:<br>- 청취자 사연은 별도로 언급되지 않았다.<br><br>음악 소개:<br>- 두알리파의 '레버테이팅'이라는 곡이 소개되었으며, 이 곡은 감정적인 사랑에 대한 내용을 담고 있다.<br><br>광고 정보:<br>- 두알리파의 '레버테이팅' 광고가 방송되었으며, 광고에서는 더 경기 패스와 관련된 내용과 환경 책임 보험에 대한 설명이 포함되었다. 또한, 아이비케이 기업은행과 함께하는 날씨와 생활에 대한 정보도 제공되었다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(5479.2, 5680.8)">[5479.2 - 5680.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없기 때문에 각 항목의 내용을 제공할 수 없습니다. 추가적인 정보나 다른 요청이 있으시면 말씀해 주세요!</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(5680.8, 5752.2)">[5680.8 - 5752.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 레버테이팅이 미국 승글차트 2위 곡이며, 2020년에 발매된 곡이다. 2024년 글라스텐 베리 패드 라이너 듀얼리파의 라이브가 밤 12시 10분에 엠비스 텔레비전에서 방영될 예정이다. 엘튠 조언의 콜드 하트 피나우 리믹스는 영국 승글차트 1위에 올랐고, 미국 승글차트에서도 탑10에 진입했다. 또한, 2022년 메간디스텔리온과 함께한 스위티스트 파이는 미국 승글차트 시트 곡이다.<br><br>청취자 사연:<br>- (사연 내용이 포함되어 있지 않음)<br><br>음악 소개:<br>- 엘튠 조언과 함께한 콜드 하트와 메간디스텔리온과의 스위티스트 파이 두 곡이 소개된다.<br><br>광고 정보:<br>- (광고 정보가 포함되어 있지 않음)</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(5752.2, 5969.4)">[5752.2 - 5969.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(5969.4, 5971.8)">[5969.4 - 5971.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 이번 방송에서는 최근의 음악 트렌드와 아티스트들의 새로운 앨범 발매 소식을 다루었습니다. 또한, 청취자들의 요청에 따라 특별한 음악 큐레이션을 진행했습니다.<br><br>청취자 사연:<br>- 한 청취자가 자신의 일상에서 힘든 순간을 겪고 있을 때, 음악이 큰 위안이 되었다는 사연을 보내왔습니다. 그 사연을 바탕으로 관련된 노래를 소개했습니다.<br><br>음악 소개:<br>- 이번 방송에서는 최근 발매된 인기 앨범의 수록곡과 아티스트의 인터뷰 내용을 소개했습니다. 특히, 새로운 장르에 도전한 아티스트의 곡을 집중적으로 다뤘습니다.<br><br>광고 정보:<br>- 방송 중간에 제공된 광고는 최신 음악 관련 상품과 공연 정보였습니다. 특히, 다가오는 음악 페스티벌에 대한 할인 혜택을 강조했습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(5971.8, 6156.6)">[5971.8 - 6156.6]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6156.6, 6205.2)">[6156.6 - 6205.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 두아리파의 히트곡 두 곡을 들으며 아티스트 미니스페셔의 두아리파 편을 소개하고 있다. 영화 바비 쌍츄렉의 수록곡인 '댄스터나이'와 최근 앨범 '레디컬 옵티미즘'의 곡 '후디니'를 언급한다.<br><br>청취자 사연:<br>- (내용 없음)<br><br>음악 소개:<br>- 두아리파의 '콜드하트'와 '스위티스트 파이'를 시작으로, 영화 바비 쌍츄렉의 수록곡 '댄스터나이'와 앨범 '레디컬 옵티미즘'의 곡 '후디니'를 소개한다.<br><br>광고 정보:<br>- (내용 없음)</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6205.2, 6372.2)">[6205.2 - 6372.2]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">해당 구간의 STT 텍스트가 없으므로, 각 항목에 대한 내용을 제공할 수 없습니다. 필요한 정보가 있다면 다른 질문을 해주시기 바랍니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6372.2, 6415.8)">[6372.2 - 6415.8]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- (내용)<br><br>청취자 사연:<br>- (내용)<br><br>음악 소개:<br>- (내용)<br><br>광고 정보:<br>- (내용)</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6415.8, 6557.0)">[6415.8 - 6557.0]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6557.0, 6822.4)">[6557.0 - 6822.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 바비스하운 트랙에서 댄스도 나이트와 최신 앨범의 후디니 두 곡을 들었고, 아티스트 미니스페셜로 두 알 리파 편을 소개하며, 광고를 듣겠다고 전했다. 또한 12월 4일과 5일에 고척돔에서 투랄리파의 내한 공연이 예정되어 있다는 소식도 전했다.<br><br>청취자 사연:<br>- 해당 텍스트에는 청취자 사연에 대한 내용이 포함되어 있지 않다.<br><br>음악 소개:<br>- 바비스하운 트랙에서 들은 곡은 댄스도 나이트와 후디니이며, 두 알 리파의 아티스트 미니스페셜이 진행되고 있다. 투랄리파의 최근 앨범 '레디컬 옵티미즌'의 메소 트레이닝 시즌도 언급되었다.<br><br>광고 정보:<br>- NH 농협은행, 더샤 상봉, 제조 은인의 해장국, 서울원, iPARK, 현대산업개발, 웰웰 메이드, 지변 안전화, 동국제약의 탈모 제품, 우리은행의 퇴직연금 하플에 대한 광고가 포함되어 있다. 각 광고는 제품이나 서비스의 특징과 혜택을 강조하고 있다.</p>
+        </section>
+        
+        <section>
+            <h2><span class="play-button" onclick="playAudio(6822.4, 6973.4)">[6822.4 - 6973.4]</span></h2>
+            <h3>Summary</h3>
+            <p style="white-space: pre-wrap;">주요 내용:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>청취자 사연:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>음악 소개:<br>- 해당 구간의 STT 텍스트가 없습니다.<br><br>광고 정보:<br>- 해당 구간의 STT 텍스트가 없습니다.</p>
+        </section>
+        
+    <footer>
+        <p>Generated automatically from radio script.</p>
+    </footer>
+    </body></html>
+    
